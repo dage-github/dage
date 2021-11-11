@@ -1,0 +1,44 @@
+Package: HNSCImmunophenotype
+Title: HNSCImmunophenotype:A package for calculating HNSC
+        immunophenotype.
+Version: 1.0.1
+Authors@R: 
+    c(person(given = "Xudong",
+           family = "Tian",
+           role = c("aut", "cre","cph"),
+           email = "1432591865@qq.com",
+           comment = c(ORCID = "YOUR-ORCID-ID")),
+           person(given = "Xiaoyi",
+           family = "Wang",
+           role = c("ths")))
+Maintainer: TianXudong <1432591865@qq.com>
+Description: Headandnecksquamouscellcarcinoma (HNSCC) is the sixth most common 
+    cancer of the body, with common risk factors such as smoking, alcohol consumption,
+    betel nut chewing and Humanpapillomavirus (HPV) infection. Studies have shown 
+    that HPV infection can affect the clinical and immunomolecular characteristics 
+    of tumours and therefore patient prognosis, and thus HPV+ and HPV- HNSCC are also 
+    considered to be two distinct clinical solid tumours. Current clinical practice 
+    is still dominated by the traditional combination of surgery, radiotherapy and 
+    chemotherapy based on anatomical site and clinical staging, which are often 
+    associated with significant recurrence rates and recurrence often leads to poor 
+    prognosis and lack of alternative treatment options. Individualised treatment based 
+    on molecular subtypes has the potential to change this traditional treatment 
+    paradigm by improving the precision of treatment. Immunophenotypes closely 
+    associated with survival prognosis and treatment response in HPV+ and HPV- HNSCC 
+    were identified at the immunogenetic level, and the immunophenotypes 
+    classifier for identifying single-sample RNA sequencing data of HNSCC was developed 
+    and validated with internal and external datasets. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+URL:
+RoxygenNote: 7.1.2
+Imports: caret, factoextra, FactoMineR, pheatmap, pROC, randomForest
+Depends: R (>= 4.1.0), tidyverse
+Suggests: knitr, rmarkdown, testthat
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2021-11-11 03:57:32 UTC; mengtian
+Author: Xudong Tian [aut, cre, cph] (YOUR-ORCID-ID),
+  Xiaoyi Wang [ths]
